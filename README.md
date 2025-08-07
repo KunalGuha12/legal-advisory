@@ -1,38 +1,37 @@
-🧠 Legal Adivisory Bot
-Empowering migrants, daily wage workers & minorities by explaining their rights in a language they understand — via AI.
+⚖️ LegalHelp.ai — Your Friendly Legal Rights Assistant
 
-The Multilingual Legal Rights Explainer Bot is a powerful, AI-driven web assistant that simplifies complex legal language into clear, understandable explanations tailored for underrepresented communities. Built with advanced LLM technology (Gemini 1.5 Flash), this tool delivers rights-based information in multiple Indian languages through text, audio, and visuals — ensuring accessibility for all.
-
-Whether you are a migrant worker, a social worker, or someone advocating for digital legal empowerment, this bot can be your first step to accessible justice.
+LegalHelp.ai is an AI-powered legal advisory chatbot built using Flask and Google Gemini 1.5 Flash, designed to help users understand their legal rights with clear, personalized, and friendly advice.
+Whether it’s a wage issue, rental dispute, or harassment complaint, LegalHelp.ai simplifies the complex world of law using conversational AI.
 
 ---
 
 🎬 Demo Video
 
-🎥 Watch the demo — Experience the bot in action!
+🎥 [Watch the demo](https://drive.google.com/drive/folders/1YVnXJrwtw46YPxqCylbpSKEEelACHyzC?usp=drive_link) — Experience the bot in action!
 
 ---
 
 
 🖼️ Bot Interface Preview
-<img width="1920" height="877" alt="Screenshot 2025-08-07 114418" src="https://github.com/user-attachments/assets/103e9800-90b1-4776-8234-2a1f71babec4" />
+<img width="1920" height="868" alt="Screenshot 2025-08-07 165518" src="https://github.com/user-attachments/assets/e5d71de1-87b9-4cd4-8ed8-871b70086586" />
+
 
 
 ---
 
 ✨ Key Features
 
-🧠 AI-Powered Responses: Uses Gemini 1.5 Flash to understand and explain user queries
+🧾 Collects user name, age, and gender for personalized answers
 
-🌐 Multilingual Support: Responds in Bengali, Hindi, English, and more
+💬 Chatbox with real-time AI legal advisor
 
-🔊 Voice Output: Text-to-speech for users with limited literacy.
+📚 Predefined legal issue suggestions (e.g. Labor Law, Harassment)
 
-🎨 Modern UI: Clean, dashboard-style interface with responsive design
+🧠 Session memory using cookies — remembers your context
 
-📊 Query Logging: All conversations saved for feedback & improvement
+✨ AI response formatting — supports bold, paragraphs, and ordered steps
 
-📥 Lightweight Frontend: Optimized for both desktop & mobile
+🎨 Professional legal-themed UI (desktop-first)
 
 ---
 
@@ -53,14 +52,25 @@ Whether you are a migrant worker, a social worker, or someone advocating for dig
 
 📁 Project Structure
 
-| File/Folder            | Description                            |
-| ---------------------- | -------------------------------------- |
-| `app.py`               | Flask backend & Gemini API handler     |
-| `templates/index.html` | Frontend HTML layout                   |
-| `static/style.css`     | Custom CSS with transitions & styling  |
-| `static/script.js`     | Handles Gemini API fetch & response UI |
-| `.env`                 | Stores Gemini API Key securely         |
-| `README.md`            | Project documentation (this file)      |
+     legalhelp-ai/
+     │
+     ├── static/
+     │   ├── index.static.js        → Frontend JS logic
+     │   ├── style.css              → UI styling
+     │   └── screenshots/           → UI screenshots
+     │
+     ├── templates/
+     │   └── index.html             → Main chat interface
+     │
+     ├── .env.sample                → Environment variable template
+     ├── app.py                     → Flask backend with session handling
+     ├── requirements.txt           → Python dependencies
+     ├── README.md                  → This file
+     └── .gitignore                 → Ignores .env, __pycache__, etc.
+
+---
+🧠 Powered By
+-> Gemini 1.5 Flash -> Flask -> Google Generative AI SDK
 
 ---
 
@@ -136,7 +146,6 @@ python app.py
 
 {
   "answer": "पुलिस कुछ मामलों में बिना वारंट के गिरफ्तारी कर सकती है।",
-  "audio_url": "/static/audio/output.mp3"
 }
 
 ---
