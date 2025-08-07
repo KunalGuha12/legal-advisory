@@ -13,13 +13,14 @@ Whether you are a migrant worker, a social worker, or someone advocating for dig
 
 
 🖼️ Bot Interface Preview
+<img width="1920" height="877" alt="Screenshot 2025-08-07 114418" src="https://github.com/user-attachments/assets/103e9800-90b1-4776-8234-2a1f71babec4" />
 
-![Uploading Screenshot 2025-08-07 114418.png…]()
 
 ✨ Key Features
 🧠 AI-Powered Responses: Uses Gemini 1.5 Flash to understand and explain user queries
 🌐 Multilingual Support: Responds in Bengali, Hindi, English, and more
-🔊 Voice Output: Text-to-speech for users with limited literacy
+🔊 Voice Output: Text-to-speech for users with limited literacy![Uploading Screenshot 2025-08-07 114418.png…]()
+
 🎨 Modern UI: Clean, dashboard-style interface with responsive design
 📊 Query Logging: All conversations saved for feedback & improvement
 📥 Lightweight Frontend: Optimized for both desktop & mobile
