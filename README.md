@@ -32,6 +32,8 @@ Whether you are a migrant worker, a social worker, or someone advocating for dig
 
 
 
+
+
 🛠️ Tech Stack
 | Layer         | Tools & Frameworks             |
 | ------------- | ------------------------------ |
@@ -39,6 +41,8 @@ Whether you are a migrant worker, a social worker, or someone advocating for dig
 | 🔧 Backend    | Python, Flask                  |
 | 🧠 AI API     | Gemini 1.5 Flash (Google AI)   |
 | 📦 Deployment | GitHub Pages / Render / Heroku |
+
+
 
 
 
@@ -53,6 +57,9 @@ Whether you are a migrant worker, a social worker, or someone advocating for dig
 | `static/script.js`     | Handles Gemini API fetch & response UI |
 | `.env`                 | Stores Gemini API Key securely         |
 | `README.md`            | Project documentation (this file)      |
+
+
+
 
 ⚙️ Getting Started
 ```bash
@@ -69,6 +76,8 @@ python app.py
 
 
 
+
+
 🌐 Frontend Usage
 
 1.Open your browser at http://localhost:5000
@@ -79,13 +88,13 @@ python app.py
 
 4.Get answers with:
     
-  a. Text response
+                   a. Text response
 
    
-  b. Audio playback
+                    b. Audio playback
 
   
-  c. Language of your choice
+                    c. Language of your choice
 
 
 
@@ -103,10 +112,14 @@ python app.py
 
 
 
+
+
 📡 API Details
 | Endpoint | Method | Description                                |
 | -------- | ------ | ------------------------------------------ |
 | `/ask`   | POST   | Sends query to Gemini, returns AI response |
+
+
 
 
 🧾 Sample Request:
@@ -124,6 +137,8 @@ python app.py
 }
 
 
+
+
 👨‍💻 Contributors
 
 Kunal Guha
@@ -138,11 +153,17 @@ Souvik Halder
 
 
 
+
+
 📝 License
 Licensed under the MIT License — free to use, improve, and share.
 
+
+
 ⭐ Star, Fork, & Contribute
 If this project helped spread awareness or simplified complex information:
+
+
 
 ⭐ Star the repo to show support
 
