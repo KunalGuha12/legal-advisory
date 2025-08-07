@@ -1,25 +1,25 @@
-###⚖️ LegalHelp.ai — Your Friendly Legal Rights Assistant
+# ⚖️ LegalHelp.ai — Your Friendly Legal Rights Assistant
 
 LegalHelp.ai is an AI-powered legal advisory chatbot built using Flask and Google Gemini 1.5 Flash, designed to help users understand their legal rights with clear, personalized, and friendly advice.
 Whether it’s a wage issue, rental dispute, or harassment complaint, LegalHelp.ai simplifies the complex world of law using conversational AI.
 
 ---
 
-🎬 Demo Video
+# 🎬 Demo Video
 
 🎥 [Watch the demo](https://drive.google.com/drive/folders/1YVnXJrwtw46YPxqCylbpSKEEelACHyzC?usp=drive_link) — Experience the bot in action!
 
 ---
 
 
-🖼️ Bot Interface Preview
+# 🖼️ Bot Interface Preview
 <img width="1920" height="868" alt="Screenshot 2025-08-07 165518" src="https://github.com/user-attachments/assets/e5d71de1-87b9-4cd4-8ed8-871b70086586" />
 
 
 
 ---
 
-✨ Key Features
+# ✨ Key Features
 
 🧾 Collects user name, age, and gender for personalized answers
 
@@ -37,7 +37,7 @@ Whether it’s a wage issue, rental dispute, or harassment complaint, LegalHelp.
 
 
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 | Layer         | Tools & Frameworks             |
 | ------------- | ------------------------------ |
 | 🎨 Frontend   | HTML5, CSS3, JavaScript        |
@@ -50,7 +50,7 @@ Whether it’s a wage issue, rental dispute, or harassment complaint, LegalHelp.
 
 
 
-📁 Project Structure
+# 📁 Project Structure
 
      legalhelp-ai/
      │
@@ -69,14 +69,14 @@ Whether it’s a wage issue, rental dispute, or harassment complaint, LegalHelp.
      └── .gitignore                 → Ignores .env, __pycache__, etc.
 
 ---
-🧠 Powered By
+# 🧠 Powered By
 -> Gemini 1.5 Flash -> Flask -> Google Generative AI SDK
 
 ---
 
 
 
-⚙️ Getting Started
+# ⚙️ Getting Started
 ```bash
 # Step 1: Install Python dependencies
 pip install flask python-dotenv
@@ -93,7 +93,7 @@ python app.py
 
 
 
-🌐 Frontend Usage
+# 🌐 Frontend Usage
 
 1.Open your browser at http://localhost:5000
 
@@ -114,7 +114,7 @@ python app.py
 
 ---
 
-🌍 Supported Languages
+# 🌍 Supported Languages
 
 1.🏳️Hindi
 
@@ -128,21 +128,21 @@ python app.py
 ---
 
 
-📡 API Details
+# 📡 API Details
 | Endpoint | Method | Description                                |
 | -------- | ------ | ------------------------------------------ |
 | `/ask`   | POST   | Sends query to Gemini, returns AI response |
 
 ---
 
-🧾 Sample Request:
+# 🧾 Sample Request:
 
 {
   "query": "Can police arrest me without a warrant?",
   "language": "Hindi"
 }
 
-🧾 Sample Response:
+# 🧾 Sample Response:
 
 {
   "answer": "पुलिस कुछ मामलों में बिना वारंट के गिरफ्तारी कर सकती है।",
@@ -150,7 +150,7 @@ python app.py
 
 ---
 
-👨‍💻 Contributors
+# 👨‍💻 Contributors
 
 Kunal Guha
 📫 [kunalguh2003@gmail.com]
@@ -164,7 +164,7 @@ Souvik Halder
 ---
 
 
-📝 License
+# 📝 License
 Licensed under the MIT License — free to use, improve, and share.
 
 
