@@ -1,4 +1,4 @@
-⚖️ LegalHelp.ai — Your Friendly Legal Rights Assistant
+###⚖️ LegalHelp.ai — Your Friendly Legal Rights Assistant
 
 LegalHelp.ai is an AI-powered legal advisory chatbot built using Flask and Google Gemini 1.5 Flash, designed to help users understand their legal rights with clear, personalized, and friendly advice.
 Whether it’s a wage issue, rental dispute, or harassment complaint, LegalHelp.ai simplifies the complex world of law using conversational AI.
