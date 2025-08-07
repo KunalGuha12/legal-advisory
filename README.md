@@ -17,13 +17,20 @@ Whether you are a migrant worker, a social worker, or someone advocating for dig
 
 
 ✨ Key Features
+
 🧠 AI-Powered Responses: Uses Gemini 1.5 Flash to understand and explain user queries
+
 🌐 Multilingual Support: Responds in Bengali, Hindi, English, and more
+
 🔊 Voice Output: Text-to-speech for users with limited literacy.
 
 🎨 Modern UI: Clean, dashboard-style interface with responsive design
+
 📊 Query Logging: All conversations saved for feedback & improvement
+
 📥 Lightweight Frontend: Optimized for both desktop & mobile
+
+
 
 🛠️ Tech Stack
 | Layer         | Tools & Frameworks             |
@@ -32,6 +39,8 @@ Whether you are a migrant worker, a social worker, or someone advocating for dig
 | 🔧 Backend    | Python, Flask                  |
 | 🧠 AI API     | Gemini 1.5 Flash (Google AI)   |
 | 📦 Deployment | GitHub Pages / Render / Heroku |
+
+
 
 
 📁 Project Structure
@@ -46,35 +55,59 @@ Whether you are a migrant worker, a social worker, or someone advocating for dig
 | `README.md`            | Project documentation (this file)      |
 
 ⚙️ Getting Started
+```bash
 # Step 1: Install Python dependencies
 pip install flask python-dotenv
 
 # Step 2: Set your Gemini API key
-# In a file named .env:
+### In a file named .env:
 GEMINI_API_KEY=your_actual_key_here
 
-# Step 3: Start the Flask server
+### Step 3: Start the Flask server
 python app.py
+```
+
+
 
 🌐 Frontend Usage
+
 1.Open your browser at http://localhost:5000
+
 2.Enter your Name, Age, and Preferred Language
+
 3.Ask your legal query in simple words
+
 4.Get answers with:
-5.Text response
-6.Audio playback
-7.Language of your choice
+    
+  a. Text response
+
+   
+  b. Audio playback
+
+  
+  c. Language of your choice
+
+
+
 
 🌍 Supported Languages
+
 1.🏳️Hindi
+
 2.🏴 Bengali
+
 3.🏳 English
+
 ...more coming soon!
+
+
+
 
 📡 API Details
 | Endpoint | Method | Description                                |
 | -------- | ------ | ------------------------------------------ |
 | `/ask`   | POST   | Sends query to Gemini, returns AI response |
+
 
 🧾 Sample Request:
 
@@ -90,7 +123,9 @@ python app.py
   "audio_url": "/static/audio/output.mp3"
 }
 
+
 👨‍💻 Contributors
+
 Kunal Guha
 📫 [kunalguh2003@gmail.com]
 
