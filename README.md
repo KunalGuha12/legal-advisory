@@ -5,16 +5,20 @@ The Multilingual Legal Rights Explainer Bot is a powerful, AI-driven web assista
 
 Whether you are a migrant worker, a social worker, or someone advocating for digital legal empowerment, this bot can be your first step to accessible justice.
 
+---
 
 🎬 Demo Video
 
 🎥 Watch the demo — Experience the bot in action!
 
+---
 
 
 🖼️ Bot Interface Preview
 <img width="1920" height="877" alt="Screenshot 2025-08-07 114418" src="https://github.com/user-attachments/assets/103e9800-90b1-4776-8234-2a1f71babec4" />
 
+
+---
 
 ✨ Key Features
 
@@ -30,7 +34,7 @@ Whether you are a migrant worker, a social worker, or someone advocating for dig
 
 📥 Lightweight Frontend: Optimized for both desktop & mobile
 
-
+---
 
 
 
@@ -42,7 +46,7 @@ Whether you are a migrant worker, a social worker, or someone advocating for dig
 | 🧠 AI API     | Gemini 1.5 Flash (Google AI)   |
 | 📦 Deployment | GitHub Pages / Render / Heroku |
 
-
+---
 
 
 
@@ -58,6 +62,7 @@ Whether you are a migrant worker, a social worker, or someone advocating for dig
 | `.env`                 | Stores Gemini API Key securely         |
 | `README.md`            | Project documentation (this file)      |
 
+---
 
 
 
@@ -74,7 +79,7 @@ GEMINI_API_KEY=your_actual_key_here
 python app.py
 ```
 
-
+---
 
 
 
@@ -97,7 +102,7 @@ python app.py
                     c. Language of your choice
 
 
-
+---
 
 🌍 Supported Languages
 
@@ -110,8 +115,7 @@ python app.py
 ...more coming soon!
 
 
-
-
+---
 
 
 📡 API Details
@@ -119,8 +123,7 @@ python app.py
 | -------- | ------ | ------------------------------------------ |
 | `/ask`   | POST   | Sends query to Gemini, returns AI response |
 
-
-
+---
 
 🧾 Sample Request:
 
@@ -136,8 +139,7 @@ python app.py
   "audio_url": "/static/audio/output.mp3"
 }
 
-
-
+---
 
 👨‍💻 Contributors
 
@@ -150,9 +152,7 @@ Subhadip Bag
 Souvik Halder
 📫 [hsouvik605@gmail.com]
 
-
-
-
+---
 
 
 📝 License
